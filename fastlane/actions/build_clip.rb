@@ -22,7 +22,7 @@ module Fastlane
              }
         )
 
-        FileUtils.cp(output_directory, params:[report_output_path])
+        FileUtils.cp(output_directory, params[:report_output_path])
       end
 
       #####################################################
