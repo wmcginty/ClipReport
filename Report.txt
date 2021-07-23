@@ -1,0 +1,35 @@
+App Thinning Size Report for All Variants of RobertHalf
+
+Variant: ApplyClip-08C98CA3-E1AC-4219-A415-C0889535A79D.ipa
+Supported variant descriptors: [device: iPad11,4, os-version: 14.0], [device: iPad11,2, os-version: 14.0], [device: iPad7,5, os-version: 14.0], [device: iPad5,2, os-version: 14.0], [device: iPad6,12, os-version: 14.0], [device: MacFamily20,1, os-version: 14.0], [device: iPad8,12, os-version: 14.0], [device: iPad8,8, os-version: 14.0], [device: iPad13,7, os-version: 14.0], [device: iPad13,4, os-version: 14.0], [device: iPad6,3, os-version: 14.0], [device: iPad11,1, os-version: 14.0], [device: iPad8,10, os-version: 14.0], [device: iPad5,4, os-version: 14.0], [device: iPad8,4, os-version: 14.0], [device: iPad11,7, os-version: 14.0], [device: iPad8,5, os-version: 14.0], [device: iPad13,10, os-version: 14.0], [device: iPad13,2, os-version: 14.0], [device: iPad8,3, os-version: 14.0], [device: iPad5,3, os-version: 14.0], [device: iPad13,5, os-version: 14.0], [device: iPad13,8, os-version: 14.0], [device: iPad7,12, os-version: 14.0], [device: iPad11,6, os-version: 14.0], [device: iPad7,1, os-version: 14.0], [device: iPad7,6, os-version: 14.0], [device: iPad7,2, os-version: 14.0], [device: iPad13,6, os-version: 14.0], [device: iPad5,1, os-version: 14.0], [device: iPad7,11, os-version: 14.0], [device: iPad13,1, os-version: 14.0], [device: iPad8,7, os-version: 14.0], [device: iPad6,11, os-version: 14.0], [device: iPad13,11, os-version: 14.0], [device: iPad8,9, os-version: 14.0], [device: iPad6,4, os-version: 14.0], [device: iPad6,8, os-version: 14.0], [device: iPad6,7, os-version: 14.0], [device: iPad8,1, os-version: 14.0], [device: iPad8,6, os-version: 14.0], [device: iPad7,3, os-version: 14.0], [device: iPad13,9, os-version: 14.0], [device: iPad8,2, os-version: 14.0], [device: iPad7,4, os-version: 14.0], [device: iPad11,3, os-version: 14.0], and [device: iPad8,11, os-version: 14.0]
+App + On Demand Resources size: 3.9 MB compressed, 10.3 MB uncompressed
+App size: 3.9 MB compressed, 10.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ApplyClip-0CD67A17-13BA-4728-A2C3-F9BFE206F6B7.ipa
+Supported variant descriptors: [device: iPhone12,1, os-version: 14.0] and [device: iPhone11,8, os-version: 14.0]
+App + On Demand Resources size: 3.9 MB compressed, 10.3 MB uncompressed
+App size: 3.9 MB compressed, 10.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ApplyClip-59BD4EB6-1CB7-4857-8C06-4E09E46F6421.ipa
+Supported variant descriptors: [device: iPod9,1, os-version: 14.0], [device: iPhone9,3, os-version: 14.0], [device: iPhone12,8, os-version: 14.0], [device: iPhone9,1, os-version: 14.0], [device: iPhone8,4, os-version: 14.0], [device: iPhone10,4, os-version: 14.0], [device: iPhone10,1, os-version: 14.0], and [device: iPhone8,1, os-version: 14.0]
+App + On Demand Resources size: 3.9 MB compressed, 10.3 MB uncompressed
+App size: 3.9 MB compressed, 10.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ApplyClip-F7FDE006-3573-4386-A6FB-A54EFB1E010C.ipa
+Supported variant descriptors: [device: iPhone11,6, os-version: 14.0], [device: iPhone9,4, os-version: 14.0], [device: iPhone11,4, os-version: 14.0], [device: iPhone12,5, os-version: 14.0], [device: iPhone13,1, os-version: 14.0], [device: iPhone11,2, os-version: 14.0], [device: iPhone10,6, os-version: 14.0], [device: iPhone8,2, os-version: 14.0], [device: iPhone12,3, os-version: 14.0], [device: iPhone13,4, os-version: 14.0], [device: iPhone10,2, os-version: 14.0], [device: iPhone13,3, os-version: 14.0], [device: iPhone13,2, os-version: 14.0], [device: iPhone10,3, os-version: 14.0], [device: iPhone10,5, os-version: 14.0], and [device: iPhone9,2, os-version: 14.0]
+App + On Demand Resources size: 4.1 MB compressed, 10.4 MB uncompressed
+App size: 4.1 MB compressed, 10.4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ApplyClip.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 4.3 MB compressed, 10.8 MB uncompressed
+App size: 4.3 MB compressed, 10.8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
