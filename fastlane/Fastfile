@@ -17,15 +17,16 @@ platform :ios do
 
     lane :generateClipReport do |options|
         report_output_path = options[:report_output_path]
-
-
+        UI.message("Report output path: #{report_output_path}")
 
         build_clip(scheme: options[:scheme],
           configuration: options[:configuration],
           export_method: options[:export_method],
           report_output_path: report_output_path,
           clip_bundle_id: options[:clip_bundle_id])
-          UI.message("Report output path: #{report_output_path}")
-        app_clip_size_report(report_path: report_output_path)
+
+        app_clip_size_report(report_path: report_output_path,
+                             include_on_demand_resources: options[:include_on_demand_resources],
+                             include_variant_descriptors: options[:include_variant_descriptors])
     end
 end
