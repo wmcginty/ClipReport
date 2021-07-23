@@ -11,7 +11,7 @@ module Fastlane
       end
 
       def self.process_report(report_path, include_on_demand_resources, include_variant_descriptors)
-        if File.exist?(report_path, )
+        if File.exist?(report_path)
           report_contents = ""
           for line in IO.readlines(report_path, chomp: true)
 
