@@ -16,14 +16,13 @@
 platform :ios do
 
     lane :generateClipReport do |options|
-        scheme = options[:scheme]
-        config = options[:config]
-        build_number = options[:build_number]
-        report_path = options[:report_path]
+        report_output_path = options[:report_output_path]
 
-        UI.message "Start"
-        build_clip(scheme: "RobertHalf", configuration: "Adhoc", export_method: "ad-hoc", report_output_path: "Report.txt", clip_bundle_id: "com.x.y")
-        app_clip_size_report(report_path: report_path)
-
+        build_clip(scheme: options[:scheme],
+          configuration: options[:config],
+          export_method: options[:export_method],
+          report_output_path: report_output_path,
+          clip_bundle_id: options[:clip_bundle_id])
+        app_clip_size_report(report_path: report_output_path)
     end
 end
