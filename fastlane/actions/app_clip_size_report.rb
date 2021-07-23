@@ -7,6 +7,7 @@ module Fastlane
     class AppClipSizeReportAction < Action
       def self.run(params)
         # fastlane will take care of reading in the parameter and fetching the environment variable:
+        sh("pwd")
         sh("./process_report.sh #{params[:report_path]}")
 
         # sh "shellcommand ./path"
