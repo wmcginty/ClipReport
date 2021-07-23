@@ -21,6 +21,7 @@ platform :ios do
         build_number = options[:build_number]
         report_path = options[:report_path]
 
+        UI.message "Start"
         app_clip_size_report(report_path: report_path)
     end
 end
