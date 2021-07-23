@@ -19,7 +19,8 @@ platform :ios do
         scheme = options[:scheme]
         config = options[:config]
         build_number = options[:build_number]
+        report_path = options[:report_path]
 
-        app_clip_size_report
+        app_clip_size_report(report_path: report_path)
     end
 end
