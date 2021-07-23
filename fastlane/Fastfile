@@ -19,7 +19,7 @@ platform :ios do
         report_output_path = options[:report_output_path]
 
         build_clip(scheme: options[:scheme],
-          configuration: options[:config],
+          configuration: options[:configuration],
           export_method: options[:export_method],
           report_output_path: report_output_path,
           clip_bundle_id: options[:clip_bundle_id])
