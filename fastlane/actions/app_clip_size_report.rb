@@ -7,8 +7,8 @@ module Fastlane
     class AppClipSizeReportAction < Action
       def self.run(params)
         # fastlane will take care of reading in the parameter and fetching the environment variable:
-        sh("process_report #{params[:report_path]}")
-    
+        sh("./process_report.sh #{params[:report_path]}")
+
         # sh "shellcommand ./path"
 
         # Actions.lane_context[SharedValues::APP_CLIP_SIZE_REPORT_CUSTOM_VALUE] = "my_val"
