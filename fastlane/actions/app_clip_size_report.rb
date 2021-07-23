@@ -16,7 +16,11 @@ module Fastlane
           for line in IO.readlines(report_path, chomp: true)
 
             # Find the title of the App Thinning Report
-            if report_contents.empty? || line.empty?
+            if report_contents.empty?
+              report_contents += line
+
+            # If a line is empty, maintain it as empty
+            elsif line.empty?
               report_contents += "\n" + line
 
             # Find the variant name
@@ -33,7 +37,6 @@ module Fastlane
                 report_contents += "\n" + line
               end
             end
-
           end
 
           return report_contents
@@ -50,7 +53,7 @@ module Fastlane
         File.write(report_path, report)
         Actions.lane_context[SharedValues::APP_CLIP_SIZE_REPORT_PROCESSED] = report
         UI.message("Processed report written to: #{report_path}")
-        
+
         return report
       end
 
