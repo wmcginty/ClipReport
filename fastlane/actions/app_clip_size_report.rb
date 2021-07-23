@@ -7,6 +7,7 @@ module Fastlane
     class AppClipSizeReportAction < Action
       def self.run(params)
         # fastlane will take care of reading in the parameter and fetching the environment variable:
+        sh("ls")
         UI.message "Parameter API Token: #{params[:report_path]}"
 
         # sh "shellcommand ./path"
