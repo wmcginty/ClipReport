@@ -44,9 +44,13 @@ module Fastlane
       end
 
       def self.run(params)
-        report = self.process_report(params[:report_path], params[:include_on_demand_resources] || false, params[:include_variant_descriptors] || false)
+        report_path = params[:report_path]
+        report = self.process_report(report_path, params[:include_on_demand_resources] || false, params[:include_variant_descriptors] || false)
 
+        File.write(report_path, report)
         Actions.lane_context[SharedValues::APP_CLIP_SIZE_REPORT_PROCESSED] = report
+        UI.message("Processed report written to: #{report_path}")
+        
         return report
       end
 
