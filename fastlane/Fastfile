@@ -22,6 +22,8 @@ platform :ios do
         report_path = options[:report_path]
 
         UI.message "Start"
+        build_clip(scheme: "RobertHalf", configuration: "Adhoc", export_method: "ad-hoc", report_output_path: "Report.txt", clip_bundle_id: "com.x.y")
         app_clip_size_report(report_path: report_path)
+
     end
 end
