@@ -25,7 +25,7 @@ platform :ios do
           report_output_path: report_output_path,
           clip_bundle_id: options[:clip_bundle_id])
 
-        app_clip_size_report(report_path: report_output_path,
+        return app_clip_size_report(report_path: report_output_path,
                              include_on_demand_resources: options[:include_on_demand_resources],
                              include_variant_descriptors: options[:include_variant_descriptors])
     end
